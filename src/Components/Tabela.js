@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Button, Table } from 'react-bootstrap';
 import './Tabela.css';
 import Contas from './Contas';
+import Customizacao from './Customizacao';
 function Tabela() {
  
   const [Analise, SetAnalise] = useState(false);
@@ -33,6 +34,7 @@ function Tabela() {
         <tbody>
                 <Anlise></Anlise>
                 <Contas></Contas>
+                <Customizacao></Customizacao>
         </tbody>
       </Table>
       <Button> Cadastrar</Button>
