@@ -35,3 +35,32 @@ td {
     font-weight: 400;    
     font-size: 16px;
     }
+    .Divbtn{
+      padding: 10px;
+      display:flex;
+      justify-content:center;
+      align-item:center
+      
+    }
+    .botao{
+      text-transform: uppercase;
+      font-size: 14px;
+      
+      line-height: 16px;
+      background-color: #6B7375;
+      border-radius:200px;
+      width: 216px;
+      text-align: center;
+      }
+
+      .botao:hover{
+        background-color: #4f5557;
+      }
+      .teste{
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+      }
+      .primeiro{width: 200px;}
+      .ultimo{margin-right: 60px;}

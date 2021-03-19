@@ -2,36 +2,6 @@
   font-family:   'Roboto', sans-serif; ;
 }
 
-.tituloTabela {
-  font-weight: 500;
-  font-size: 18px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.tituloTabela>p {
-  margin-left: 100px;
-}
-
-.tituloTabela>p:nth-child(1) {
-  margin-right: -10px;
-}
-
-.tituloTabela>p:nth-child(2) {
-  margin-right: 40px;
-}
-
-.tituloTabela>p:nth-child(3) {
-  margin-right: 60px;
-}
-
-.tituloTabela>p:nth-child(4) {
-  margin-right: 60px;
-}
-
-.tituloTabela>p:nth-child(5) {
-  margin-right: 120px;
-}
 
 body{
   background-color: #E5E5E5;

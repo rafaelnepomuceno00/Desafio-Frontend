@@ -8,15 +8,16 @@ function App() {
     <>
       <Container fluid>
         <h1 className="mb-5 mt-2 ml-5 titulo">Tabela de Permissões</h1>
-        <div className=" tituloTabela">
-          <p>Ver listagem</p>
-          <p>Ver detalhes</p>
-          <p>Criar</p>
-          <p>Editar</p>
-          <p>Deletar</p>
-        </div>
+       
         <div className="tabela mx-5">
-        
+        <tr className='teste'>
+          <th className='primeiro'></th>
+          <th>Ver listagem</th>
+          <th>Ver detalhes</th>
+          <th>Criar</th>
+          <th>Editar</th>
+          <th className='ultimo'>Deletar</th>
+        </tr>
         <Tabela/>
         </div>
       </Container>
