@@ -1,0 +1,37 @@
+td {
+    width: 100px;
+    height: 41px;
+    }
+    td{text-align: center;}
+    
+    td:first-child{
+      text-align: start;
+      padding-right: -50px;
+    }
+    
+    th{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .tableHead{
+      text-align: center;
+    }
+    thead{
+      background-color: #F1EFEF;
+    }
+    tbody{
+      background-color: #F8F8F8;
+    }
+    .tdTitulo{
+        font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    .tdTitulo > i{
+        vertical-align: middle;
+    }
+
+    tr{
+    font-weight: 400;    
+    font-size: 16px;
+    }

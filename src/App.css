@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+  font-family:   'Roboto', sans-serif; ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tituloTabela {
+  font-weight: 500;
+  font-size: 18px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+}
+
+.tituloTabela>p {
+  margin-left: 100px;
+}
+
+.tituloTabela>p:nth-child(1) {
+  margin-right: -10px;
+}
+
+.tituloTabela>p:nth-child(2) {
+  margin-right: 40px;
+}
+
+.tituloTabela>p:nth-child(3) {
+  margin-right: 60px;
+}
+
+.tituloTabela>p:nth-child(4) {
+  margin-right: 60px;
+}
+
+.tituloTabela>p:nth-child(5) {
+  margin-right: 120px;
+}
+
+body{
+  background-color: #E5E5E5;
+}
+input:hover{
+  cursor: pointer;
+}
+.titulo{
+  font-size: 26px;
+  font-weight: 500;
+}
+input[type='checkbox']{
+  appearance: none;
+  height: 18px;
+  width: 18px;
+  background-color: #535050;
+}
+input[type='checkbox']::after{
+  font-family: 'Material Icons';
+  content:'done';
+  font-weight: 600;
+  font-size:15px;
+  text-align: center;
   color: white;
+  padding: 0;
+  outline: none;
+  display: none;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type='checkbox']:checked::after{
+  display: block;
 }
